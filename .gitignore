@@ -1,0 +1,67 @@
+# Ignore logs
+*.log
+logs/
+*.pid
+*.seed
+*.pid.lock
+
+# Ignore temporary files and directories
+tmp/
+temp/
+*.tmp
+*.swp
+*.bak
+*.orig
+*.old
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore environment variable files
+.env
+.env.local
+.env.*.local
+
+# Ignore build and dependency directories
+node_modules/
+dist/
+build/
+target/
+
+# Ignore IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore security-related files
+*.pem
+*.key
+*.crt
+*.csr
+*.pfx
+*.p12
+
+# Ignore database files
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+
+# Ignore backup and archive files
+*.bak
+*.zip
+*.tar
+*.gz
+*.rar
+*.7z
+
+# Ignore sensitive configuration files
+config/settings.yml
+config/secrets.yml
+config/database.yml
+
+# Ignore other sensitive files
+credentials/
+secrets/
